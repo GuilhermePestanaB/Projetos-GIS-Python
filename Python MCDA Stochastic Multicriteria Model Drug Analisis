@@ -1,3 +1,8 @@
+# Replicando uma analise do artigo de TERVONEN DOI: 10.1002/sim.4194, onde foi analisado com dados de um estudo clinico
+#qual seria a melhor droga para o tratamento de ansiedade. Ele utilizou um softwere executavel em JAVA (JSMAA).
+#Repliquei o estudo em Python para uma disciplina do doutorado (MCDA)
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -179,4 +184,5 @@ for a in range(n_alt):
             peso_pct = central_weights[a, c] * 100
             print(f"  - Dar preferência de {peso_pct:.1f}% para o critério '{criteria[c]}'")
     else:
+
         print(f"\nA alternativa '{alternatives[a]}' nunca é a preferida neste modelo.")
