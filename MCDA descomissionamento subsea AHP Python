@@ -1,3 +1,5 @@
+#utilizacao #de #AHP #em #python #para #auxilio #na #tomada #de #decisao #das #alternativas #de #descomissionamento #de #dutos #submarinos. #CASO #HIPOTETICO
+#Autoria #propria #fruto #de #um #trabalho #de #doutorado #de #MCDA.
 import ahpy
 import numpy as np
 
@@ -187,4 +189,5 @@ for node in nodes_to_check:
     print(f"\nSubcritério: {node.name}")
     print(f"CR: {node.consistency_ratio:.5f}")
     print("Pesos Locais (A1, A2, A3):")
+
     print(node.local_weights)
